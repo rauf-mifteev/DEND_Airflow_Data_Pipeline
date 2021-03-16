@@ -10,7 +10,7 @@ an **Apache Airflow DAG** (Directed acyclic graph) for automation and monitoring
 * `udac_example_dag.py`: Defines the DAG and assigns operators to each task in the Airflow pipeline as well as the sequence of tasks.
 * `stage_redshift.py`: Defines StageToRedshiftOperator that reads from S3 and writes to staging tables in AWS Redshfit
 * `load_fact.py`: Defines LoadFactOperator that extracts data from staging into `songplays` fact table
-* `load_dimension.py`: Defines LoadDimensionOperator that extracts data from staging into the `song`, `user`, `artists`, and `time` dimension tables
+* `load_dimension.py`: Defines LoadDimensionOperator that extracts data from staging into the `songs`, `users`, `artists`, and `time` dimension tables
 * `data_quality.py`: Defines DataQualityOperator that runs a data quality check to ensure data has been written to RedShift
   
 ## Datasets
