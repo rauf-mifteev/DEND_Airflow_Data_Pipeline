@@ -34,5 +34,5 @@ The code is **Python** script and it requires:
 
 * [AWS Account with S3 access](https://aws.amazon.com/)
 * [AWS Redshift cluster](https://aws.amazon.com/redshift)
-* [Apache Airflow](https://https://airflow.apache.org/start.html/)
+* [Apache Airflow](https://airflow.apache.org/start.html/)
 
