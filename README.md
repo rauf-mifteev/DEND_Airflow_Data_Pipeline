@@ -7,7 +7,7 @@ an **Apache Airflow DAG** (Directed acyclic graph) for automation and monitoring
 ## Files in this project
 * `create_tables.py`: Drops previous schema and creates empty tables
 * `sql_queries.py`: Defines queries used in the ETL pipeline
-* `udac_example_dag.py`: Defines the DAG and assigns operators to each task in the Airflow pipeline as well as the sequence of tasks.
+* `udac_example_dag.py`: Sets up the DAG, assigns operators to each task in the Airflow pipeline and defines the sequence of tasks
 * `stage_redshift.py`: Defines StageToRedshiftOperator that reads from S3 and writes to staging tables in AWS Redshfit
 * `load_fact.py`: Defines LoadFactOperator that extracts data from staging into `songplays` fact table
 * `load_dimension.py`: Defines LoadDimensionOperator that extracts data from staging into the `songs`, `users`, `artists`, and `time` dimension tables
