@@ -32,5 +32,7 @@ an **Apache Airflow DAG** (Directed acyclic graph) for automation and monitoring
 ## Prerequisites
 The code is **Python** script and it requires:
 
-* [AWS Account](https://aws.amazon.com/)
-* [PySpark](https://spark.apache.org/)
+* [AWS Account with S3 access](https://aws.amazon.com/)
+* [AWS Redshift cluster] (https://aws.amazon.com/redshift/)
+* [Apache Airflow](https://https://airflow.apache.org/start.html/)
+
