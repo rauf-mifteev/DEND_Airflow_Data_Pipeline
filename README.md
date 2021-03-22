@@ -1,7 +1,7 @@
-# Data pipeline in Apache Airflow project for Udacity Data Engineer Nanodegree
+# Data pipeline in Apache Airflow project for Udacity Data Engineering Nanodegree
 
 ## Project overview
-This is Data pipeline project for Udacity Data Engineer Nanodegree. In this project I create 
+This is Data pipeline project for Udacity Data Engineering Nanodegree. In this project I create 
 an **Apache Airflow DAG** (Directed acyclic graph) for automation and monitoring to the **ETL** processe. **ETL pipeline** itself extracts data from **AWS S3**, transforms it using **Amazon Redshift** for staging. This JSON files represent a user activity logs collected by a music streaming app of an imaginary startup Sparkify. And the resulting database will be used for analytical purposes.
 
 ## Files in this project
